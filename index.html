@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LobanovaMaria</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Lobanova Maria</h1>
+      <p class="header__sub-title">Front-End Developer</p>
+    </header>
+    <main class="main">
+      <div class="wrapper">
+        <article class="about">
+          <address class="about__address">
+            <ul class="about__list">
+              <li class="about__item">Email: roldik95@gmail.com</li>
+              <li class="about__item">Phone: +79258224356</li>
+              <li class="about__item">
+                Discord: Lobanova Maria (@reasaid)#2709
+              </li>
+            </ul>
+          </address>
+          <div class="two-col">
+            <img class="foto" src="foto001-2.jpg" alt="Lobanova Maria" />
+            <div class="wrapper_about">
+              <div class="wrapper-title">
+                <h2 class="about__title">About me</h2>
+                <img class="line1" src="Line-1.png" alt="line" />
+              </div>
+              <p class="about__discription paragraph">
+                I started taking my first steps in programming in 2019. I
+                started by learning JavaCore on the site <b>javarush.ru</b>.
+                Then I knew about the RSS course and in September I began it. In
+                the future, I want to get a job in a large company like EPAM.
+              </p>
+            </div>
+          </div>
+        </article>
+        <section class="skill">
+          <div class="col-1">
+            <div class="wrapper-title">
+              <h2 class="about__title">Education</h2>
+              <img class="line1" src="Line-1.png" alt="line" />
+            </div>
+            <p class="paragraph">
+              Graduated from MEPhI University with a bachelor's program:
+              "Accounting, analysis and audit".
+            </p>
+            <div class="wrapper-title">
+              <h2 class="about__title">English</h2>
+              <img class="line1" src="Line-1.png" alt="line" />
+            </div>
+            <p class="paragraph">
+              I regularly study English on the site <b>lingualeo.com</b>.
+            </p>
+            <p class="paragraph">English level: B1 - Intermediate</p>
+
+            <div class="wrapper-title">
+              <h2 class="about__title">Skills</h2>
+              <img class="line1" src="Line-1.png" alt="line" />
+            </div>
+            <ul class="paragraph">
+              <li>HTML ( validity, semantic )</li>
+              <li>CSS ( Flexbox, Grid & Float )</li>
+              <li>CSS preprocessors ( SASS )</li>
+              <li>Responsive design</li>
+              <li>JavaScript</li>
+              <li>GIT and work in Command Prompt</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+          <div class="col2">
+            <div class="wrapper-title">
+              <h2 class="about__title">Code Example</h2>
+              <img class="line1" src="Line-1.png" alt="line" />
+            </div>
+            <pre><code >
+              function binarySearch(arr, item) {
+                let minIndex = 0;
+                let maxIndex = arr.length - 1;
+              
+                while (minIndex &lt;= maxIndex) {
+                  let middleIndex = Math.floor((minIndex + maxIndex) / 2);
+                  let guess = arr[middleIndex];
+                  if (guess === item) return middleIndex;
+                  if (guess > item) maxIndex = mid - 1;
+                  return (minIndex = middleIndex + 1);
+                }
+              }              
+            </code></pre>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <figure>
+        <a href="https://rs.school/js/"
+          ><img src="logoRSS1.svg" alt="logo"
+        /></a>
+      </figure>
+    </footer>
+  </body>
+</html>

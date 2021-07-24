@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  margin: auto;
+  padding: 0;
+  background-color: #f4f5f5;
+}
+
+.wrapper {
+  width: 1140px;
+}
+
+.header {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.header__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 49px;
+  line-height: 59px;
+  color: rgba(21, 24, 21, 0.85);
+  margin-bottom: 10px;
+}
+.header__sub-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #485852;
+  margin-bottom: 40px;
+}
+.about {
+  width: 1200px;
+  height: 260px;
+  border: 2px solid #05624e;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+
+.about__list {
+  background-color: #485852;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.about__item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 29px;
+  color: #ffffff;
+  background-color: inherit;
+}
+.about__item:not(:last-child) {
+  margin-right: 40px;
+}
+.two-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foto {
+  border-radius: 100px;
+  display: inline-block;
+  width: 170px;
+  margin-top: 25px;
+}
+.about__title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(21, 24, 21, 0.85);
+  margin-bottom: 20px;
+}
+.line1 {
+  position: absolute;
+  top: 35px;
+}
+.wrapper-title {
+  position: relative;
+  margin-top: 10px;
+  display: inline-block;
+}
+.paragraph {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #485852;
+  margin-bottom: 30px;
+}
+.about__discription {
+  width: 785px;
+  margin-right: 100px;
+}
+.skill {
+  display: flex;
+  width: 1200px;
+  height: 574px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+.col-1 {
+  width: 470px;
+  height: 550px;
+}
+.col2 {
+  width: 470px;
+  height: 550px;
+}
+.footer {
+  height: 150px;
+  text-align: center;
+}
